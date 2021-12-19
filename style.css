@@ -1,0 +1,21 @@
+body {
+    padding: 100px;
+}
+.bank_title{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+}
+.submit_area{
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 50px;
+    border-radius: 10px;
+}
+.submit_area .extra {
+    padding-bottom: 20px;
+}
+#transaction_area{
+    display: none;
+}
