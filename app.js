@@ -28,6 +28,9 @@ widthdrawBtn.addEventListener("click" , function () {
 
 function getInputNumber (id) {
     const amount = document.getElementById(id).value ;
+    if(amount < 0) {
+        alert ("Amount can't be negative")
+    }
     const amountNumber = Number(amount);
     return amountNumber
 }
