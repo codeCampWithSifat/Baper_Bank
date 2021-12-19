@@ -20,7 +20,43 @@
     </div>
 
     <div id="transaction_area">
-        <h2>This is transaction Area</h2>
+        <div class="row">
+            <div class="col-md-4 ">
+               <div class="deposit status">
+                <h5>Deposit</h5>
+                <h2>$ <span id ="currentDeposit">00</span></h2>
+               </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                      <h2>$ <span>00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="balance status">
+                    <h5>Balance</h5>
+                     <h2>$ <span id ="currentBalance">1250</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submit_area">
+                    <h3>Deposit Amount</h3>
+                <input id ="depositAmount" type="text" placeholder="$ Enter Your Deposit Amount" class="form-control" name="" id=""> <br>
+                <button id ="addDeposit" class="btn btn-warning">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submit_area">
+                    <h3>Withdraw Amount</h3>
+                <input id ="withdrawAmount" type="text" placeholder="$ Enter Your Withdraw Amount" class="form-control" name="" id=""> <br>
+                <button id ="addWithdraw" class="btn btn-warning">Withdraw</button>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
